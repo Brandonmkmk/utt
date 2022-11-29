@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera de peliculas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="login.js" defer></script>
+    <script src="suscripcion.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="pedir.js"></script>
+</head>
+<body>
+    <h1>Cafeteria UTT</h1>
+    
+    <nav class="Navegacion">
+        <div class="Botones">
+        <a href="#menus">Menus</a>
+        <a href="#acerca-de">Acerca-de</a>
+        <a href="#acerca-de">Contacto</a>
+        <a href="login.html">ir a login</a>
+        
+        <div class="buscar">
+            <input type="text" id="pelicula" placeholder="Ingresa un menu a buscar">
+            <button type="submit" id="buscar">Buscar</button>
+        </div>
+    </div>
+    </nav>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img src="" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Los mejores menus</h2>
+              <p class="slider__txt">Solo con nosotros</p>
+              <a href="" class="btn-shop">Compra hoy</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://th.bing.com/th/id/OIP.hFt8-IJQo3oc8Bboq6mM4QHaE8?w=271&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Los mejores menus</h2>
+              <p class="slider__txt">Solo con nosotros</p>
+              <a href="#menus" class="btn-shop">Compra hoy</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://th.bing.com/th/id/OIP.hKQeY58dPZ5ll6Vb07f5rgHaE-?w=302&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Los mejores menus</h2>
+              <p class="slider__txt">Solo con nosotros</p>
+              <a href="#menus" class="btn-shop">Compra hoy</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://th.bing.com/th/id/OIP.GUZe9qDF32CKYoNgz6gyDQHaFD?w=262&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Los mejores menus</h2>
+              <p class="slider__txt">Solo con nosotros</p>
+              <a href="#menus" class="btn-shop">Compra hoy</a>
+            </div>
+          </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+    
+    
+    <div id="menus" class="container">
+            <div class="tarjetas">
+                <h4>Chilaquiles con pollo</h4>
+                <p>Chilaquiles con milanesa <br>a tan solo $35 pesos.</p>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.eNeWwYDDbLdS4kFCXYIKoAHaE7&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>Torta de jamon</h4>
+                <p>Torta grande de jamon <br>a tan solo $25 pesos.</p>
+             <img src="https://tse2.mm.bing.net/th?id=OIP.KpE_pPZA2TYTC26O0r7SHgHaDp&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>Hamburguesa sencilla</h4>
+                <p>Hamburguesa sin papas <br>a tan solo $30 pesos.</p>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.6G5acbgnCEIjHCjoRPPb-AHaE8&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>Molletes</h4>
+                <p>Disfruta unos ricos molletes <br>a tan solo $25 pesos.</p>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.umeXgvB75_33FWGZpU6ucAHaEk&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>Memelitas</h4>
+                <p>especialidad de la casa <br>a tan solo $30 pesos.</p>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.l4WB2QNhdJRkRVO3sXdL3QHaE8&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>Torta se salchicha</h4>
+                 <p>Rica torta de salchicha <br>a tan solo $35 pesos.</p>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.ksIL9V1XH8758HpF5GHNTAHaGX&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>Fruta picada</h4>
+                <p>Cualquier fruta picada <br>a tan solo $15 pesos.</p>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.1BuS8D8ZFRIGNthYqLgUTwHaFj&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>Sopa Maruchan</h4>
+                <p>Sopa caliente instantanea <br>a tan solo $20 pesos.</p>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.ULmBXayNe_lAPi0n5UaxgAHaD2&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+            <div class="tarjetas">
+                <h4>tacos al pastor</h4>
+                <p>orden de tacos al pastor <br>a tan solo $40 pesos.</p>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.WwFMncSFpVwn3h8-1YyddwHaDt&pid=Api&P=0" alt="">
+                <button onclick="pedir()">Realizar pedido</button>
+            </div>
+    </div>
+    
+    <footer>
+        <div id="acerca-de" class="contenedor">
+            <div class="acerca-de">
+                <h2>Acerca de</h2>
+                <p>Somos la cafeteria oficial de la utt,<br> Nuestro compromiso es ofrecer servicio y calidad</p>
+            </div>
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <a href="https://www.facebook.com/profile.php?id=100087753554840">facebook</a>
+                <a href="twitter.com">twitter</a>
+                <a href="instagram.com">instagram</a>
+                <a href="whatsapp.com">whatsapp</a>
+            </div>
+            <div class="categorias">
+                <h2>Categorias de comidas</h2>
+                <a href="">saludable</a>
+                <a href="">rapida</a>
+                <a href="">fruta</a>
+                <a href="">bebidas</a>
+            </div>
+            <div class="formulario">
+                <label for="correo">Comentarios</label>
+                <input type="gmail" id="correo" placeholder="Ingresa tu correo">
+                <input type="submit" value="enviar" id="enviar">
+            </div>
+            
+        </div>
+    </footer>
+
+    
+</body>
+</html>

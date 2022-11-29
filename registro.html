@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="contenedor mt-5">
+        <div id="registro">
+            <div id="mensaje"></div>
+            <form id="formregistro">
+                <div class="form-group"></div>
+                <label for="name">Ingresa tu nombre completo</label>
+                <input type="text" id = "name" class="form-control">
+                <div class="form-group"></div>
+                <label for="correo">Ingresa tu correo electronico</label>
+                <input type="text" id = "correo" class="form-control">
+                <div id="form-group">
+                <label for="user">usuario</label>
+                <input type="text" id="user" class="form-control">
+                </div>
+                <div id="form-group">
+                <label for="contraseña">Contraseña</label>
+                <input type="password"  id="contraseña" class="form-control">
+                </div>
+                <input type="submit" value="Enviar" class="btn btn-success btn-block mt-3" >
+            </form>
+            <div id="link">
+            <a href="/login.html">Ir a login</a>
+            </div>
+        </div>
+    </div>
+    <script src="utilidades.js"></script>
+    <script src="registro.js"></script>
+    
+</body>
+</html>
